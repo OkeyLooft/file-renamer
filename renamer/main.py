@@ -19,10 +19,9 @@ def main():
     for item_path in path.iterdir():
         if item_path.is_file():
             suff = item_path.suffix
-            ran_count = random.randint(0,1000)
-            item_path.rename(f"image_{ran_count}{suff}")
-            file = Path(f'image_{ran_count}{suff}')
-            file.move_into(path)
+            ran_count = random.randint(0,10000)
+            new_path = path / f"image_{ran_count}{suff}"
+            item_path.rename(new_path)
 
 if __name__ == "__main__":
     main()

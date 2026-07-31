@@ -31,8 +31,8 @@
    cd file-renamer
 2. **Запустите скрипт, передав путь к папке и новое имя:**
    `python main.py /путь/к/папке новое_имя`
-   2.1 **Пример использования:**
-        `python main.py ./my_photos photo_`
+3. **Пример использования:**
+			`python main.py ./my_photos photo_`
 
 ## 📝 Лицензия
 
